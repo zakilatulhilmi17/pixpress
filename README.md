@@ -1,3 +1,5 @@
+![pixpress logo](logo.png)
+
 # Image Batch Compressor
 
 A simple Python script to batch compress images in a folder using Pillow. Supports JPG, PNG, and WebP. Automatically skips files that would become larger after compression.
@@ -40,7 +42,7 @@ python compress.py
 |---|---|---|
 | `input_dir` | Folder containing your original images | — |
 | `output_dir` | Folder where compressed images will be saved | — |
-| `quality` | Compression quality, 1 (smallest) to 95 (best) | `85` |
+| `quality` | Compression quality, 1 (smallest) to 95 (best) | `10` |
 
 ### Quality guide
 
